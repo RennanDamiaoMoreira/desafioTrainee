@@ -1,3 +1,15 @@
 .fundo{
     background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #00AAE6;
 }
+.corpo{
+    background: rgba(255, 255, 255, 0.8);
+border-radius: 100px 100px 0px 0px;
+}
+.porta-botoes{
+    background: rgba(242, 133, 0, 0.3);
+border-radius: 64px;
+margin-top: ;
+}
+.logo{
+    height: ;
+}
