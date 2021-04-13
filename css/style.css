@@ -10,8 +10,26 @@ border-radius: 100px 100px 0px 0px;
 border-radius: 64px;
 margin-top: -32px;
 }
-
-
+.facebook{
+    height: 85px;
+    width: 97px;
+}
+.instagram{
+    height: 66.36px;
+    width: 93.69px;
+}
+.linkedin{
+    height: 77.92px;
+    width: 98.08px;
+}
+.site{
+    height: 75.6px;
+    width: 100.94px;
+}
+.blog{
+    height: 84px;
+    width: 884px;
+}
 
 
 
