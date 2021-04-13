@@ -13,18 +13,22 @@ margin-top: -32px;
 .facebook{
     height: 85px;
     width: 97px;
+    margin-right: 10px;
 }
 .instagram{
     height: 66.36px;
     width: 93.69px;
+    margin-right: 10px;
 }
 .linkedin{
     height: 77.92px;
     width: 98.08px;
+    margin-right: 10px;
 }
 .site{
     height: 75.6px;
     width: 100.94px;
+    margin-right: 10px;
 }
 .blog{
     height: 84px;
