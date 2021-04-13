@@ -5,7 +5,7 @@
 }
 .corpo{
     background: rgba(255, 255, 255, 0.8);
-border-radius: 100px 100px 0px 0px;
+    border-radius: 100px 100px 0px 0px;
 }
 
 
@@ -56,10 +56,56 @@ border-radius: 100px 100px 0px 0px;
         width: 32.09px;
         margin-bottom: 13.07px;
     }
+
+    .primaryButton {
+        width: 272px;
+        height: 30px;
+        top: 61px;
+        left: 0px;
+    
+        margin-top: 74px;
+        margin-bottom: 51px;
+    
+
+        background: #F28500;
+        border-radius: 32px;
+        border: 3px solid #F28500;
+        box-sizing: border-box;
+    
+        text-decoration: none;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        text-align: center;
+    }
+    
+    .secundaryButton{
+        width: 202px;
+        height: 30px;
+        top: 62px;
+        left: 0px;
+
+        margin-bottom: 75px;
+    
+        background: #00AAE6 10%;
+        border-radius: 32px;
+        background: rgba(0, 170, 230, 0.1);
+        border: 3px solid #008DBF;
+        box-sizing: border-box;
+    
+        text-decoration: none;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+    }
     
 }
 
-
+.buttonsStyle{
+    text-align: center;
+}
 
 @media only screen and (min-width: 401px){
 .logo{
@@ -107,14 +153,13 @@ margin-top: -48px;
     margin-bottom: 26px;
 }
 
-.buttonsStyle{
-    text-align: center;
-}
-
 .primaryButton {
     width: 716px;
     height: 53px;
     top: 34px;
+
+    margin-top: 108px;
+    margin-bottom: 64px;
 
     background: #F28500;
     border-radius: 32px;
@@ -134,6 +179,8 @@ margin-top: -48px;
     height: 53px;
     top: 34px;
 
+    margin-bottom: 84px;
+
     background: #00AAE6 10%;
     border-radius: 32px;
     background: rgba(0, 170, 230, 0.1);
@@ -145,8 +192,5 @@ margin-top: -48px;
     font-style: normal;
     font-weight: normal;
     font-size: 21px;
-   
 }
-
-
 }
