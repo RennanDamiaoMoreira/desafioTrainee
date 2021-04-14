@@ -12,8 +12,14 @@ html,body { height:100%; }
   margin-left: auto;
   margin-right: auto;
 }
-
-@media only screen and (max-width: 400px) {
+/* menor dispositivo*/
+@media only screen and (max-width: 675px) { 
+  .corpo{
+    border-radius: 50px 50px 0px 0px;
+    width: 80%;
+    margin-left: 10%;
+    height: 356px;
+  }
   .logo {
     margin-top: 24px;
     margin-bottom: 256px;
@@ -24,6 +30,8 @@ html,body { height:100%; }
     background: rgba(242, 133, 0, 0.3);
     border-radius: 64px;
     margin-top: -27px;
+    margin-left: 10%;
+    width: 80%;
   }
   .facebook {
     height: 32.86px;
@@ -105,7 +113,7 @@ html,body { height:100%; }
 }
 
 
-
+/* desktop*/
 @media only screen and (min-width: 1300px) {
   .corpo {
     margin-left: 122px;
@@ -186,6 +194,104 @@ html,body { height:100%; }
   .secundaryButton {
     width: 476px;
     height: 53px;
+    top: 34px;
+
+    margin-bottom: 117px;
+
+    background: #00aae6 10%;
+    border-radius: 32px;
+    background: rgba(0, 170, 230, 0.1);
+    border: 3px solid #008dbf;
+    box-sizing: border-box;
+
+    text-decoration: none;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+  }
+}
+/* Intermediário*/
+@media only screen and (min-width: 675px) and ( max-width:1300px) {
+  .corpo {
+    margin-left: 122px;
+    margin-right: 122px;
+    height: 585px;
+  }
+  .logo {
+    height: 297px;
+    width: 236px;
+    margin-bottom: 142px;
+  }
+  .porta-botoes {
+    background: rgba(242, 133, 0, 0.3);
+    border-radius: 64px;
+    margin-top: -48px;
+    width: 80%;
+    height: 137px;
+    margin-right:10%;
+    margin-left: 10%;
+   
+  }
+  .facebook {
+    height: 62%;
+    width: 10%;
+    margin-right: 6%;
+    margin-top: 26px;
+    margin-bottom: 26px;
+  }
+  .instagram {
+    height: 48%;
+    width: 10%;
+    margin-right: 7%;
+    margin-top: 35.32px;
+    margin-bottom: 35.32px;
+  }
+  .linkedin {
+    height: 56%;
+    width: 10%;
+    margin-right: 7%;
+    margin-top: 29.54px;
+    margin-bottom: 29.54px;
+  }
+  .site {
+    height: 55%;
+    width: 10%;
+    margin-right: 6%;
+    margin-top: 34px;
+    margin-bottom: 27.4px;
+  }
+  .blog {
+    margin-top: 27px;
+    height: 61%;
+    width: 10%;
+    margin-bottom: 26px;
+  }
+
+  .primaryButton {
+    width: 60%;
+    height:10%;
+    top: 34px;
+
+    margin-top: 142px;
+    margin-bottom: 131px;
+
+    background: #f28500;
+    border-radius: 32px;
+    border: 3px solid #f28500;
+    box-sizing: border-box;
+
+    text-decoration: none;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    text-align: center;
+  }
+
+  .secundaryButton {
+    width: 40%;
+    height: 10%;
     top: 34px;
 
     margin-bottom: 117px;
