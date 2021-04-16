@@ -318,3 +318,12 @@ button:hover{
 button:active{
   background: #666666;
 }
+.fundo.dark{
+  background: #001E2D;
+}
+.porta-botoes.dark{
+background: #F2F6FA;
+}
+.corpo.dark{
+background: #00AAE6;
+}

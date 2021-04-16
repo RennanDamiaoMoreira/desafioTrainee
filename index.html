@@ -1,6 +1,8 @@
 <html>
   <head>
+    
     <!--Import materialize.css-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link
       type="text/css"
       rel="stylesheet"
@@ -12,7 +14,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
 
-  <body class="fundo">
+  <body class="fundo ">
+    <div class="container">
+      <div class="switch">
+        <label>
+          <i class="material-icons ">brightness_low</i>
+          <input type="checkbox" onclick="altera()">
+          <span class="lever"></span>
+          
+          <i class="material-icons">brightness_3</i>
+        </label>
+      </div>
+    </div>
     <div class="">
       <div class="row">
         <div class="col s12 center-align">
@@ -49,5 +62,6 @@
     </div>
     <!--JavaScript at end of body for optimized loading-->
     <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="js/dark.js"></script>
   </body>
 </html>
